@@ -3,16 +3,17 @@
 <head>
 	<title>Abdul Rauf</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="index.css">
-
-<!--	<script type="text/javascript" src="index.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script> 
 </head>
 <body>
+
 <!--
 Nav bar right below
  -->
+
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Rauf-Source</a>
+  <a class="navbar-brand" href="#">Rauf-Source</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,13 +24,13 @@ Nav bar right below
         <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">OOP Labs<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="ooplabs.html">OOP Labs<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#"><em>Algorithms</em><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="factorial.java">About</a>
       </li>
       
     </ul>
@@ -39,21 +40,48 @@ Nav bar right below
     </form>
   </div>
 </nav>
+<h1>OOP<span class="badge badge-secondary">Lab Task 1</span></h1>
 
+<code>import java.util.Scanner;
+public class Factorial{
+
+	public static void main(String args[])
+	{
+
+		System.out.println("Factorial of the number: " );
+
+		Scanner input  =  new Scanner(System.in);
+		int num  =  input.nextInt();
+
+			System.out.println(num + "! = " + (num < 0 ? "Math Error": factorial(num)));
+
+	}
+	public static int factorial(int num)
+	{
+		int n = num;
+	if(n > 0)
+	{
+		for(int i = 1; i < num ; i++)
+		{
+			n  =  n * (num - i);
+		}
+		return n;
+
+	}
+	else 
+	{
+		return 1;
+	}
+
+	
+
+
+
+}
+
+
+}
+ </code>
 <!-- Nav BAR ends here -->
-<h1>OOP<span class="badge badge-secondary">Lab Tasks</span></h1>
-<!-- 	Labs are here below-->
-<button type="button" class="btn btn-warning btn-lg btn-block" href="factorial.html">Lab 1 Factorial</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 2</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 3</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 4</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 5</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 6</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 7</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 8</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 9</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 10</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 11</button>
-
 </body>
 </html>
