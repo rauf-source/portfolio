@@ -1,0 +1,12 @@
+body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+62,3690f0+68,1e69de+100 */
+position: fixed;
+  width: 100%;
+  height: 100%;
+background: rgb(109,179,242); /* Old browsers */
+background: -moz-gradient(top,  rgba(109,179,242,1) 0%, rgba(84,163,238,1) 62%, rgba(54,144,240,1) 68%, rgba(30,105,222,1) 100%); /* FF3.6-15 */
+background: -webkit-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 62%,rgba(54,144,240,1) 68%,rgba(30,105,222,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: gradient(to bottom,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 62%,rgba(54,144,240,1) 68%,rgba(30,105,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+
+}
