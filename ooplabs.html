@@ -3,7 +3,16 @@
 <head>
 	<title>Abdul Rauf</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="ooplabs.css">
+  <script type="text/javascript" src="index.js"></script> 
 
 <!--	<script type="text/javascript" src="index.js"></script> -->
 </head>
@@ -12,7 +21,7 @@
 Nav bar right below
  -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="rauf.png" style="width: 9em"></a>
+  <a class="navbar-brand" href="index.html"><img src="rauf.png" style="width: 9em"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,36 +35,42 @@ Nav bar right below
         <a class="nav-link" href="ooplabs.html">OOP Labs<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#"><em>Algorithms</em><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="algorithms.html"><em>Algorithms</em><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about.html">About</a>
       </li>
       
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchButton">Search</button>
     </form>
   </div>
 </nav>
 
 
 <!-- Nav BAR ends here -->
-<h1>OOP<span class="badge badge-secondary">Lab Tasks</span></h1>
-<!-- 	Labs are here below-->
-<a href="https://github.com/rauf-source/Java/tree/master/Lab1" target="_blank"><button type="button" class="btn btn-warning btn-lg btn-block" >Lab 1 Factorial</a></button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 2</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 3</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 4</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 5</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 6</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 7</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 8</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 9</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 10</button>
-<button type="button" class="btn btn-warning btn-lg btn-block">Lab 11</button>
+<div style="text-align: center;">
+<h1>OOP<span class="badge badge-primary">Lab Tasks</span></h1>
+</div>
+<div class="card m-card"><h4 class="">These are the lab tasks in order, please remember that not all tasks of every lab are solved here. Most of them are but not all. With time almost all tasks will be uploaded.</h4></div>
+</div>
 
+<br>
+<br>
+<!-- 	Labs are here below-->
+<div class="welcome story labs">
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab1" target="_blank" class="btn btn-default btn-md "><strong>Lab 1</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab3" target="_blank" class="btn btn-default btn-md "><strong>Lab 3</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab4" target="_blank" class="btn btn-default btn-md "><strong>Lab 4</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab6" target="_blank" class="btn btn-default btn-md "><strong>Lab 6</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab7" target="_blank" class="btn btn-default btn-md "><strong>Lab 7</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab8" target="_blank" class="btn btn-default btn-md"><strong>Lab 8</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab9" target="_blank" class="btn btn-default btn-md "><strong>Lab 9</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab10" target="_blank" class="btn btn-default btn-md "><strong>Lab 10</strong></a><br>
+  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab11" target="_blank" class="btn btn-default btn-md "><strong>Lab 11</strong></a><br>
+</div>
 
 <!--footer -->
   <!-- Site footer -->
@@ -84,10 +99,7 @@ Nav bar right below
             <h6>Quick Links</h6>
             <ul class="footer-links">
               <li><a href="">About Us</a></li>
-              <li><a href="">Contact Us</a></li>
-              <li><a href="">Contribute</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Sitemap</a></li>
+              
             </ul>
           </div>
         </div>
@@ -102,8 +114,10 @@ Nav bar right below
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
+           <ul class="social-icons">
               <li><a class="facebook" href="https://www.facebook.com/Technocrats-352663735362956/?modal=admin_todo_tour" target="_blank"><i class="fa fa-facebook"></i></a></li>
+             
+            </ul>
              
             </ul>
           </div>
