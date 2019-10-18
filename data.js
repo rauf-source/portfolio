@@ -2,7 +2,7 @@ const labs = [
 {
 	id: 1,
 	link: "https://github.com/rauf-source/Java/tree/master/Lab1",
-	meta:" factorial table of 5 odd numbers even numbers positive number negative number grade of students sum of first ten natural numbers conditions loops reverse order",
+	meta:"factorial table of 5 odd numbers even numbers positive number negative number grade of students sum of first ten natural numbers conditions loops reverse order",
 	message: "Lab containing programs for : Printing 5 odd and even numbers, converting a positive number into negative, sum of first 10 natural numbers...",
 
 },
