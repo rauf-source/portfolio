@@ -26,7 +26,7 @@ $("#box").append(intro);
 	{
 	counter++;
 	if(counter === 1){$("#box").append(searchbox);}
-	$("#searchbox").append( "<span class='fa fa-terminal fa-2x'></span><a href=' "+ algos[i].link + " ' target='_blank' class='btn btn-default btn-md '><strong>Lab "+algos[i].id + "</strong></a><p>"+algos[i].message + "</p>");	
+	$("#searchbox").append( "<span class='fa fa-terminal fa-2x'></span><a href=' "+ algos[i].link + " ' target='_blank' class='btn btn-default btn-md '><strong>Algorithm "+algos[i].id + "</strong></a><p>"+algos[i].message + "</p>");	
 	
 	}
 
