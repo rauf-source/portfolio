@@ -2,24 +2,24 @@
 <html>
 <head>
 	<title>OOP Labs</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script type="text/javascript" src="index.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="ooplabs.css">
   <script type="text/javascript" src="index.js"></script> 
-
-<!--	<script type="text/javascript" src="index.js"></script> -->
+  <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="searchpage.js"></script>
 </head>
 <body>
+
 <!--
 Nav bar right below
  -->
+
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html"><img src="rauf.png" style="width: 9em"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,36 +42,32 @@ Nav bar right below
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchButton">Search</button>
+    <form id='searchform' class="form-inline my-2 my-lg-0">
+      <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="input" >Search</button>
     </form>
   </div>
 </nav>
 
 
 <!-- Nav BAR ends here -->
+<div id="box">
+  <!-- everything on the page except footer and nav -->
 <div style="text-align: center;">
 <h1>OOP<span class="badge badge-primary">Lab Tasks</span></h1>
 </div>
-<div class="card m-card"><h4 class="">These are the lab tasks in order, please remember that not all tasks of every lab are solved here. Most of them are but not all. With time almost all tasks will be uploaded.</h4></div>
+<div class="card m-card">
+  <h4 class="">These are the lab tasks in order, please remember that not all tasks of every lab are solved here. Most of them are but not all. With time almost all tasks will be uploaded.</h4>
 </div>
+
 
 <br>
 <br>
 <!-- 	Labs are here below-->
-<div class="welcome story labs">
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab1" target="_blank" class="btn btn-default btn-md "><strong>Lab 1</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab3" target="_blank" class="btn btn-default btn-md "><strong>Lab 3</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab4" target="_blank" class="btn btn-default btn-md "><strong>Lab 4</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab6" target="_blank" class="btn btn-default btn-md "><strong>Lab 6</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab7" target="_blank" class="btn btn-default btn-md "><strong>Lab 7</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab8" target="_blank" class="btn btn-default btn-md"><strong>Lab 8</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab9" target="_blank" class="btn btn-default btn-md "><strong>Lab 9</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab10" target="_blank" class="btn btn-default btn-md "><strong>Lab 10</strong></a><br>
-  <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/Lab11" target="_blank" class="btn btn-default btn-md "><strong>Lab 11</strong></a><br>
+<div id="ooplabs"class="welcome story labs" style="background-color: rgba(255, 255, 255 ,0.7 ); ">
 </div>
 
+</div>
 <!--footer -->
   <!-- Site footer -->
     <footer class="site-footer">
@@ -109,7 +105,7 @@ Nav bar right below
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-         <a href="#">Technorats</a>.
+         <a href="#">Technocrats</a>.
             </p>
           </div>
 

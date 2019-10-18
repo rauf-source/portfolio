@@ -2,24 +2,24 @@
 <html>
 <head>
 	<title>Algorithms</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script type="text/javascript" src="index.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="ooplabs.css">
-  <script type="text/javascript" src="index.js"></script> 
-
-<!--	<script type="text/javascript" src="index.js"></script> -->
+  <script type="text/javascript" src="algorithms.js"></script> 
+  <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="searchpage.js"></script>
 </head>
 <body>
+
 <!--
 Nav bar right below
  -->
+
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html"><img src="rauf.png" style="width: 9em"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,31 +42,31 @@ Nav bar right below
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchButton">Search</button>
+    <form id='searchform' class="form-inline my-2 my-lg-0">
+      <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="input" >Search</button>
     </form>
   </div>
 </nav>
 
-
 <!-- Nav BAR ends here -->
-
-<h1><img src="algo_pic.png" style="width: 5em; "><span class="badge">Hackkerank Algorithms</span></h1>
-<div class="card m-card"style="margin: 0 5em;"><h4 class="" >These are my Hackerrank algorithm challenges, most of these will be in Java but you might find a mixture of languages in future.</h4></div>
+<div id ="box">
+<h1><img src="algo_pic.png" style="width: 3em; "><span class="badge">Hackkerank Algorithms</span></h1>
+<div class="card m-card"style="margin: 0 5em;"><h4 class="" >These are my Hackerrank algorithm challenges, most of these will be in Java but you might find a mixture of languages in future.</h4>
 </div>
+
 <br>
 <br>
-<!-- 	Labs are here below-->
+<!-- 	alo are here below-->
 <div class="welcome story labs">
     <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/HackerRank/SimpleArraySum" target="_blank" class="btn btn-default btn-md "><strong>Simple arraySum</strong></a><br>
 
   <span class='fa fa-terminal fa-2x'></span><a href="https://github.com/rauf-source/Java/tree/master/HackerRank/CompareTheTriplets" target="_blank" class="btn btn-default btn-md "><strong>Compare the triplets</strong></a><br>
   
-
-  
 </div>
+  
 
+</div>
 <!--footer -->
   <!-- Site footer -->
     <footer class="site-footer">
@@ -104,7 +104,7 @@ Nav bar right below
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-         <a href="#">Technorats</a>.
+         <a href="#">Technocrats</a>.
             </p>
           </div>
 

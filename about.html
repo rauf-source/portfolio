@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title>About Technocrats</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Righteous|Titillium+Web&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="index.js"></script> 
+  <script type="text/javascript" src="index.js"></script> 
+  <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="searchpage.js"></script>
 </head>
 <body>
 
@@ -40,14 +42,16 @@ Nav bar right below
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton"type="submit">Search</button>
+    <form id='searchform' class="form-inline my-2 my-lg-0">
+      <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="input" >Search</button>
     </form>
   </div>
 </nav>
 
 <!-- Nav BAR ends here -->
+<div id="box">
+
 <h1 class="welcome card" style="
 font-family: 'Lobster Two', cursive;
 text-align: center;
@@ -63,6 +67,8 @@ text-align: center;
   margin-right: auto;
   width: 50%" src="spacex.jpg">
 <br><br>
+
+</div>
 <!--footer -->
   <!-- Site footer -->
     <footer class="site-footer">
@@ -100,7 +106,7 @@ text-align: center;
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-         <a href="#">Technorats</a>.
+         <a href="#">Technocrats</a>.
             </p>
           </div>
 

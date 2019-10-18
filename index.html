@@ -11,6 +11,8 @@
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster+Two&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="index.js"></script> 
+  <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="searchpage.js"></script>
 </head>
 <body>
 
@@ -40,14 +42,15 @@ Nav bar right below
       </li>
       
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton"type="submit">Search</button>
+    <form id='searchform' class="form-inline my-2 my-lg-0">
+      <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="input" >Search</button>
     </form>
   </div>
 </nav>
 
 <!-- Nav BAR ends here -->
+<div id="box">
 
 <div class="m-card-holder">
   <div class="m-card bg-gold">
@@ -90,6 +93,7 @@ Nav bar right below
 
 </div>
 
+</div>
 <!--footer -->
   <!-- Site footer -->
     <footer class="site-footer">
@@ -127,7 +131,7 @@ Nav bar right below
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by 
-         <a href="#">Technorats</a>.
+         <a href="#">Technocrats</a>.
             </p>
           </div>
 
