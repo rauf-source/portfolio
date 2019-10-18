@@ -31,7 +31,7 @@ $("#box").append(intro);
 	}
 
 };
-$("#box").append("<br></br><br><br>");
+$("#box").append("<br><br><br><br>");
 
 if(counter<=0){$("#results").append("<h2>Not Found!</h2><br><h2>Search feature only works with key words , try \"" + hits[Math.floor(Math.random() * hits.length)] + "\" "); }
 });

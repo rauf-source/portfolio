@@ -11,18 +11,20 @@ $("#searchButton").click(
 ()=>{
   $("#box").empty();
   //make dir for searchbox
+$("#box").append(intro);
 
-$("#box").append(searchbox);
  $("#results").append("<h1>  '" + $("#search").val() + "'</h1>");
  let counter = 0;
   for(let i = 0; i < algos.length; i++){
   	//define regex for input text
   	//also convert it to lowrcase
+  	counter++;
+	if(counter === 1){$("#box").append(searchbox);}
   	let regex =  new RegExp($("#search").val().toLowerCase());
 	if(regex.test(algos[i].meta))
 	{
 	$("#searchbox").append( "<span class='fa fa-terminal fa-2x'></span><a href=' "+ algos[i].link + " ' target='_blank' class='btn btn-default btn-md '><strong>Lab "+algos[i].id + "</strong></a><p>"+algos[i].meta + "</p><br>");	
-	counter++;
+	
 	}
 
 };
