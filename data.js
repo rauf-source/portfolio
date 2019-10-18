@@ -82,12 +82,14 @@ const algos = [
 	id: 1,
 	link: "https://github.com/rauf-source/Java/tree/master/HackerRank/SimpleArraySum",
 	meta:"simple array sum arraysum sum ",
+	message: "Program for array sum"
 
 },
 {
 	id: 2,
 	link: "https://github.com/rauf-source/Java/tree/master/HackerRank/CompareTheTriplets",
 	meta:"comparethetriplets triplets compare ",
+	message: "Program for comparing arrays"
 }];
 const hitsAlgos = [
 "CompareTheTriplets","Triplets","compare","sum","arraysum"
