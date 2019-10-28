@@ -72,6 +72,12 @@ const labs = [
 	meta:"arraylist array arrays list remove method remove() add method add() arrayaslist as list collections sort sorting sorted all elements ",
 	message: "Lab containing programs for ArrayList and its methods ...",
 },
+{
+	id: 13,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab13",
+	meta:"enumeration gender bonus enum enums book ",
+	message: "Lab containing programs for enumerations and creating enums",
+},
 ];
 const hits = [
 "Factorial","Encapsultation","Private","Array","ArrayList","Constructor","Composition","Method","Static","Getter","Setter","Apache","Api"
