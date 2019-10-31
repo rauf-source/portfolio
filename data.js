@@ -78,6 +78,18 @@ const labs = [
 	meta:"enumeration gender bonus enum enums book ",
 	message: "Lab containing programs for enumerations and creating enums",
 },
+{
+	id: 14,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab14",
+	meta:"inheritence extends superclass subclass class sub super parent child",
+	message:"labs containing tasks of inheritence" ,
+},
+{
+	id: 15,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab15",
+	meta:"Method overriding overriding ",
+	message: "labs containing tasks about method overriding",
+},
 ];
 const hits = [
 "Factorial","Encapsultation","Private","Array","ArrayList","Constructor","Composition","Method","Static","Getter","Setter","Apache","Api"
