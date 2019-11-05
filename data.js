@@ -90,6 +90,12 @@ const labs = [
 	meta:"Method overriding overriding ",
 	message: "labs containing tasks about method overriding",
 },
+{
+	id: 16,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab16",
+	meta:"Polymorphism polymorphism ",
+	message: "labs containing tasks about polymorphism",
+},
 ];
 const hits = [
 "Factorial","Encapsultation","Private","Array","ArrayList","Constructor","Composition","Method","Static","Getter","Setter","Apache","Api"
