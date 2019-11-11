@@ -2,7 +2,7 @@ const labs = [
 {
 	id: 1,
 	link: "https://github.com/rauf-source/Java/tree/master/Lab1",
-	meta:"factorial table of 5 odd numbers even numbers positive number negative number grade of students sum of first ten natural numbers conditions loops reverse order",
+	meta:"factorial table odd numbers even numbers positive number negative number grade of students sum of first ten natural numbers conditions loops reverse order",
 	message: "Lab containing programs for : Printing 5 odd and even numbers, converting a positive number into negative, sum of first 10 natural numbers...",
 
 },
@@ -95,6 +95,12 @@ const labs = [
 	link: "https://github.com/rauf-source/Java/tree/master/Lab16",
 	meta:"Polymorphism polymorphism ",
 	message: "labs containing tasks about polymorphism",
+},
+{
+	id: 17,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab17",
+	meta:"abstraction abstract typecasting casting downcasting",
+	message: "labs containing tasks about abstraction and downcasting",
 },
 ];
 const hits = [
