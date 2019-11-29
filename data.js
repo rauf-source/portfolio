@@ -102,9 +102,15 @@ const labs = [
 	meta:"abstraction abstract typecasting casting downcasting",
 	message: "labs containing tasks about abstraction and downcasting",
 },
+{
+	id: 18,
+	link: "https://github.com/rauf-source/Java/tree/master/Lab17",
+	meta: "Interface interfaces implements ",
+	message: "lab containing tasks about interfaces"
+}
 ];
 const hits = [
-"Factorial","Encapsultation","Private","Array","ArrayList","Constructor","Composition","Method","Static","Getter","Setter","Apache","Api"
+"Factorial","Interface" ,"Implements","Encapsultation","Private","Array","ArrayList","Constructor","Composition","Method","Static","Getter","Setter","Apache","Api"
 ];
 
 const algos = [
